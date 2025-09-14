@@ -138,40 +138,6 @@ To keep the dashboard current with new data:
 2. **Re-run processing**: Execute `python data_processing.py`
 3. **Refresh dashboard**: The dashboard will automatically reflect new data
 
-### Scheduled Updates
-For production environments, consider:
-- **Automated data pipelines** to fetch new data
-- **Scheduled processing** using cron jobs or task schedulers
-- **API integrations** for real-time data updates
-
-## 🛠️ Customization
-
-### Adding New Metrics
-1. **Update data_processing.py**: Add new metric calculations
-2. **Modify dashboard.py**: Add new visualizations and KPIs
-3. **Re-run processing**: Process data with new metrics
-
-### Adding New Channels
-1. **Update channel list** in data_processing.py
-2. **Add channel-specific logic** in dashboard components
-3. **Update filtering options** in the dashboard
-
-### Styling Customization
-- **CSS modifications**: Update the custom CSS in marketing_dashboard.py
-- **Color schemes**: Modify Plotly color palettes
-- **Layout changes**: Adjust Streamlit column layouts and spacing
-
-## 📞 Support
-
-For questions, issues, or feature requests:
-- Check the documentation above
-- Review the code comments for implementation details
-- Create an issue in the repository for bugs or feature requests
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ---
 
 **Built with ❤️ for data-driven marketing intelligence**
